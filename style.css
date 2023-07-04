@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --primaryColor: rgb(66, 29, 29);
+    --secondColor: rgb(129, 223, 14);
+}
+
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--primaryColor);
+}
+
+.heading {
+    color: var(--secondColor);
+
+}
+.description {
+    color: rgb(181, 177, 187)
+}
+
+label {
+    color: var(--secondColor);
+}
+textarea {
+    display: block;
+
+}
+
+#birth-date {
+    display: block;
+    margin: 0.4rem auto;
+    padding: 0.4rem;
+    border-radius: 0.8rem;
+}
+
+#lucky-number {
+    padding: 0.4rem;
+    border-radius: 0.8rem;
+    display: block;
+    margin: 0.6rem auto;
+
+}
+
+#submit {
+    background-color: var(--primaryColor);
+    color: var(--secondColor);
+    border-color: var(--secondColor);
+    display: block;
+    text-align: center;
+    margin: 0.4rem auto;
+    padding: 0.6rem;
+    border-radius: 0.8rem;
+}
+
+#result {
+    font-size: larger;
+    display: block;
+    margin: 0.4rem auto;
+    padding: 0.4rem;
+    border-radius: 0.8rem;
+}
