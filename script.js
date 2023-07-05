@@ -11,11 +11,13 @@ submitButton.addEventListener("click", () => {
     }
     
     if(sum % (luckyNumber.value) === 0) {
-        message.innerText = "🎊You are lucky🎉";
+        message.innerText = "Yaay🎊, You are lucky🎉";
     } else {
         message.innerText = "Sorry, You are not lucky😔";
     }
-    if(birthDate.value || luckyNumber.value === '') {
-        message.innerText = "Please enter above information😡"
+    if((birthDate.value)=== '') {
+        message.innerText = " Please enter date of birth";
+    } else if (luckyNumber.value === "") {
+        message.innerText = "Please enter lucky number";
     }
 });
