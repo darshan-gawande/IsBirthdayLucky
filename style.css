@@ -50,11 +50,18 @@ textarea {
     background-color: var(--primaryColor);
     color: var(--secondColor);
     border-color: var(--secondColor);
-    display: block;
+    display: inline-block;
+    transition-duration: 0.4s;
     text-align: center;
     margin: 0.4rem auto;
     padding: 0.6rem;
     border-radius: 0.8rem;
+    cursor: pointer;
+}
+
+#submit:hover {
+    color: black;
+    background-color: var(--secondColor)
 }
 
 #result {
@@ -63,4 +70,7 @@ textarea {
     margin: 0.4rem auto;
     padding: 0.4rem;
     border-radius: 0.8rem;
+}
+.disclaimer {
+   color: wheat;
 }
